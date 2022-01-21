@@ -3,7 +3,7 @@ SELECT movie_name, release_date
 FROM movies
 2. Select the first and last names of all American directors.
 SELECT first_name, last_name
-FROM directors
+FROM directors WHERE nationality ='American'
 3. Select all male actors born after the 1st of January 1970.
 SELECT gender, date_of_birth
 FROM actors 
